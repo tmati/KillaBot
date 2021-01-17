@@ -43,7 +43,7 @@ bot.on('message', msg => {
         case '!Reserve':
         case '!reserve':
         case '!res':
-            msg.channel.send('https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/42/3D_Map_by_loweffortsaltbox.png/revision/latest?cb=20200410160036, Underground map: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d0/ReserveExpandedUnderground.png/revision/latest?cb=20201004224828')
+            msg.channel.send('https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/42/3D_Map_by_loweffortsaltbox.png/revision/latest?cb=20200410160036 \nUnderground map: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d0/ReserveExpandedUnderground.png/revision/latest?cb=20201004224828')
             break;
         case '!ammo':
             msg.channel.send('https://escapefromtarkov.gamepedia.com/Ballistics');
